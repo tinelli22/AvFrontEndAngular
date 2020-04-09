@@ -1,0 +1,9 @@
+#form {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    #form {
+        display: flex;
+    }
+}

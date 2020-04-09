@@ -1,0 +1,11 @@
+
+    [
+        { "img": "../assets/images/tenis.png", "name": "TÊNIS COURO PUMA R6V8 Q4 V2", "old_p": 299.0, "cur_p": 399.0, 
+        "n_parc": 3, "v_parc": 133.0, "isOff": false },
+
+        { "img": "../assets/images/tenis.png", "name": "TÊNIS COURO PUMA R6V8 Q4 V2", "old_p": 299.0, "cur_p": 399.0, 
+            "n_parc": 3, "v_parc": 133.0, "isOff": true },
+
+        { "img": "../assets/images/tenis.png", "name": "TÊNIS COURO PUMA R6V8 Q4 V2", "old_p": 299.0, "cur_p": 399.0, 
+        "n_parc": 3, "v_parc": 133.0, "isOff": false }    
+    ]

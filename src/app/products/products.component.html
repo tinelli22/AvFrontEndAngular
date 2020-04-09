@@ -1,0 +1,24 @@
+<div class="container">
+    <h3 id="title">Produtos</h3>
+
+    <ngb-carousel *ngIf="products">
+        <ng-template ngbSlide *ngFor="let prod of products">
+            
+               <div class="prod_cont">
+                   <img [src]="prod.img">
+                   <span id='prod_name'>{{prod.name}}</span>
+                   <div class="stars_cont">
+                        <mat-icon id="star_icon">star</mat-icon>
+                        <mat-icon id="star_icon">star_outline</mat-icon>
+                        <mat-icon id="star_icon">star_outline</mat-icon>
+                        <mat-icon id="star_icon">star_outline</mat-icon>
+                        <mat-icon id="star_icon">star_outline</mat-icon>
+                   </div>
+                   <span id="prev_value"> de {{prod.old_p | currency: 'BRL': 'symbol'}}</span>
+                   <span id="cur_value"> por {{prod.cur_p | currency: 'BRL': 'symbol'}}</span>
+                   <span id="par_value">ou em {{prod.n_parc}}x de {{prod.v_parc}}</span>
+               </div>
+            
+        </ng-template>
+    </ngb-carousel>
+</div>

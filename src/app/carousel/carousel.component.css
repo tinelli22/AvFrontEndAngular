@@ -1,0 +1,51 @@
+.container {
+    height: 40%;
+}
+
+#title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 52px;
+    color: #FFFFFF;
+    margin-left: 185px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 1;
+}
+
+#banner_left {
+    height: 250px;
+    width: 50%;
+    background: #011627;
+    float: left;
+   
+}
+
+#banner_right {
+   
+    height: 250px;
+    width: 50%;
+    background: #2EC4B6;
+    float: right;
+}
+
+#banner_right img {
+    
+}
+
+#mob { display: none; }
+
+@media screen and (max-width: 640px) {
+
+    #banner_left { display: none; }
+
+    #banner_right { width: 100%; }
+
+    #title {
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    #mob { display: flex; }
+}

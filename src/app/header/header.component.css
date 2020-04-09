@@ -1,0 +1,30 @@
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#imgSize {
+    width: 90px;
+    height: 30px;
+}
+
+@media screen and (max-width: 640px) {
+   .container {
+       margin: 10px;
+       margin-right: 20px;
+   }
+
+   .cont_mobile {
+        display: block;
+        flex-direction: row;
+        justify-content: stretch;
+        align-items: stretch;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

@@ -1,0 +1,130 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: #011627;
+}
+
+.footer {
+    height: 10px;
+    left: 0px;
+    bottom: 0px;
+    background: #2EC4B6;
+}
+
+#title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+#line {
+    width: 44px;
+    height: 0px;
+    left: 380px;
+    bottom: 157px;
+    border: 5px solid #FF9F1C;
+}
+
+.title_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
+}
+
+.add_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.address {
+    padding-left: 20px;
+}
+
+.address h4 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.address span {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #cfcfcf;
+}
+
+.btn_footer {
+    display: flex;
+    width: 195px;
+    height: 38px;
+    background: #FF9F1C;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.btn_cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#btn_txt {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.8202px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+#icon_mail {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#icon_headset {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cont_footer {
+    margin-left: 40px;
+}
+
+.contacts {
+    width: 50%;
+}
+
+.contacts_mobile {
+    display: none;
+    width: 50%;
+}
+
+.test {
+    display: flex;
+}
+
+@media screen and (max-width: 640px) {
+    .contacts { display: none; }
+
+    .contacts_mobile { display: flex;}
+}

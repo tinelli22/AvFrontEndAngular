@@ -1,0 +1,12 @@
+<ngb-carousel *ngIf="images">
+
+    <ng-template ngbSlide class="container">
+        <div class="picsum-img-wrapper">
+            <h3 id="title">Nossa<br id='mob' /> especialidade:<br/> experiência<br id='mob' /> de compra</h3>
+            <div id="banner_left"></div>
+            <div id="banner_right">
+                <img [src]="images[0].img">
+            </div>  
+        </div>
+    </ng-template>
+</ngb-carousel>
